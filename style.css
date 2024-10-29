@@ -325,8 +325,12 @@ header a:visited{
     font-size: smaller; 
     margin: 15px;
     padding: 10px;
-
   } 
+
+  .imagenes{
+    display: block;
+    width: 50%;
+  }
 
   .seccion-container{
     display: flex;
@@ -343,7 +347,7 @@ header a:visited{
   }
 
   footer{
-    width: 50%;;
+    width: 50%;
   }
 
   #lista2{
