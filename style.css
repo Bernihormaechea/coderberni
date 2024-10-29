@@ -320,12 +320,18 @@ header a:visited{
 
 
 @media screen and (max-width: 550px) {
-  #lista1 {
+  #lista1 a {
     display:block;
+    font-size: smaller; 
+    margin: 15px;
+    padding: 10px;
+
   } 
 
   .seccion-container{
     display: flex;
+    margin: auto;
+    width: 60%;
   }
 
   .div-2{
@@ -337,23 +343,13 @@ header a:visited{
   }
 
   footer{
-    display: flex;
+    width: 50%;;
   }
 
-  .lista2{
-    display: inline-flex;
-  }
-
-  .imagenes2{
-    display: block;
-  }
-
-  .item-6{
-    display: block;
-  }
-
-  .item-7{
-    display: block;
+  #lista2{
+    font-size: smaller;
+    margin: 15px;
+    padding: 10px;
   }
 } 
     
