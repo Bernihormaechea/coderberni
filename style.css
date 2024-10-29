@@ -1,3 +1,4 @@
+
 h1{
     color: #c6c2c2; 
     font-size: xx-large; 
@@ -6,7 +7,6 @@ h1{
     font-family: "Poppins", serif; 
 
 }
-
 
 
 #lista2 a{
@@ -317,3 +317,43 @@ header a:visited{
     background-size: cover;
     grid-row: 1/5;
 }
+
+
+@media screen and (max-width: 550px) {
+  #lista1 {
+    display:block;
+  } 
+
+  .seccion-container{
+    display: flex;
+  }
+
+  .div-2{
+    display: block;
+  }
+
+  .grid-container{
+    visibility: hidden;
+  }
+
+  footer{
+    display: flex;
+  }
+
+  .lista2{
+    display: inline-flex;
+  }
+
+  .imagenes2{
+    display: block;
+  }
+
+  .item-6{
+    display: block;
+  }
+
+  .item-7{
+    display: block;
+  }
+} 
+    
