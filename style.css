@@ -325,17 +325,19 @@ header a:visited{
     font-size: smaller; 
     margin: 15px;
     padding: 10px;
+    object-fit: cover;
   } 
 
   .imagenes{
     display: block;
-    width: 50%;
+    width: 70vw;
+    object-fit: cover;
   }
 
   .seccion-container{
     display: flex;
     margin: auto;
-    width: 60%;
+    width: 70vw;
   }
 
   .div-2{
@@ -347,7 +349,7 @@ header a:visited{
   }
 
   footer{
-    width: 50%;
+    object-fit: cover;
   }
 
   #lista2{
