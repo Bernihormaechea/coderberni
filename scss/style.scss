@@ -273,12 +273,16 @@ p{
     }
 
   
- @media screen and (max-width: 550px){
+ @media screen and (max-width: 768px) {
+    
 
-   h1{
-    font-size: xx-small;
-   }
-
+ body{
+    background-color: aqua;
+    h1{
+        visibility: hidden;
+       }
+    
+ }  
    #lista1 a {
     display:block;
     font-size: smaller; 
