@@ -12,10 +12,7 @@ h1{
     display: flex; 
     justify-content: space-evenly;
 }
-div .Cuadro-1{
-    display: flex; 
-    justify-content: space-evenly;
-}
+
 
 #lista2 a{
     color: #fafafa;
