@@ -54,9 +54,9 @@ body #lista1 a:hover {
 body #lista2 a {
   color: #fafafa;
   font-family: "Poppins", sans-serif;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
   background-color: #1a1a1a;
   margin: 8px;
   transition: 1s;
@@ -260,11 +260,12 @@ body .mobile img{
     padding: 10px;
     object-fit: cover;
   }
-  body li .imagenes {
+  body li .imagenes{
     display: block;
     width: 70vw;
     object-fit: cover;
   }
+
   body li .seccion-container {
     display: flex;
     margin: auto;
@@ -277,13 +278,13 @@ body .mobile img{
   body li footer {
     object-fit: cover;
   }
-  body li #lista2 {
+  body li #lista2 a {
     font-size: smaller;
     margin: 15px;
-    padding: 10px;
+    padding: 8px;
   }
 
-    
+  
 
   body h1{
       margin: 20px;
